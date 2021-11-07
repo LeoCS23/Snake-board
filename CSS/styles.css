@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: trebuchet ms;
+}
+
+.spaceRender {
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: rgb(79, 243, 120);
+    zoom: 150%;
+    box-shadow: 20px 18px 25px 1px rgba(73, 189, 81, 0.89);
+}
+
+/* .trRender:nth-child(odd) .tdRender:nth-child(even),
+.trRender:nth-child(even) .tdRender:nth-child(odd) {
+    background: green;
+} */
+
+body {
+    width: 900px;
+    position: relative;
+    margin: 0 auto;
+}
+
+table {
+    box-shadow: 3px 3px 10px #999;
+}
+
+td {
+    width: 6px;
+    height: 6px;
+    /* cellpadding: 0;
+    cellspacing: 0; */
+}
+
+td.snakeCell {
+    background: rgb(153, 0, 255);
+    -moz-border-radius: 5px;
+    box-shadow: 1px 1px 1px #aaa;
+    border-radius: 5px;
+    position: relative;
+}
+
+td.snakeHead {
+    background: rgb(68, 0, 255);
+    -moz-border-radius: 1px;
+    border-radius: 5px;
+    position: relative;
+}
+
+td.fruitCell {
+    background: rgb(255, 0, 76);
+    border: 1px solid rgba(0, 255, 149, 0.377);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #aaa;
+    position: absolute;
+}
+
+#scoreBoard {
+    text-shadow: 2px 2px 1px #fff;
+    box-shadow: 0 -3px 5px #aaa;
+    width: 482px;
+    margin: 50px auto 0 auto;
+    border: 1px solid #ccc;
+    background: #eee;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.gameOver {
+    padding: 25px 15px;
+    background: #555;
+    font-size: 30px;
+    color: white;
+}
